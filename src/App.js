@@ -1,11 +1,12 @@
 import React from "react";
+import Weather from "./Weather";
 import "./App.css";
 
 export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1>Weather App</h1>
+        <Weather />
         <footer>
           This project was coded by{" "}
           <a
@@ -15,7 +16,7 @@ export default function App() {
           >
             Rexhina Qevani
           </a>{" "}
-          and it is{" "}
+          and is{" "}
           <a
             href="
           https://github.com/RexhinaQevani/my-weather-app"
