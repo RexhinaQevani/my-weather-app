@@ -50,3 +50,7 @@
   top: -34px;
   margin-left: 5px;
 }
+
+.Weather .unit a {
+  text-decoration: none;
+}
