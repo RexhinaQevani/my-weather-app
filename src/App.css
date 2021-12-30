@@ -7,3 +7,8 @@
   font-size: 11px;
   margin: 10px 0;
 }
+
+.App a {
+  color: rgb(195, 140, 202);
+  text-decoration: none;
+}
