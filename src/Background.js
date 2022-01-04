@@ -1,5 +1,5 @@
 import React from "react";
-import reactDom from "react-dom";
+
 import ParticleBackground from "react-particle-backgrounds";
 
 export default function Background() {
