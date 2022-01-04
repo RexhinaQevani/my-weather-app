@@ -1,5 +1,21 @@
-.WeatherForecast {
+.WeatherForecast .row .col {
   text-align: center;
+  border: 1px solid rgb(195, 140, 202, 0.5);
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px rgb(105, 69, 94, 0.5);
+  padding: 10px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+.WeatherForecast-day {
+  padding: 5px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.WeatherForecast-temperatures {
+  margin-right: 5px;
 }
 
 .WeatherForecast-temperature-min {

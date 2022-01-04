@@ -1,4 +1,5 @@
 import React from "react";
+import reactDom from "react-dom";
 import ParticleBackground from "react-particle-backgrounds";
 
 export default function Background() {
@@ -6,13 +7,13 @@ export default function Background() {
     canvas: {
       canvasFillSpace: true,
       width: 200,
-      height: 100,
+      height: 80,
       ueBouncyWalls: false,
     },
     particle: {
       particleCount: 200,
       color: "rgb(105, 69, 94)",
-      maxSize: 4,
+      maxSize: 2,
     },
     velocity: {
       directionAngle: 180,

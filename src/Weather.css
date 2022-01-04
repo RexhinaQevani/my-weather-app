@@ -1,7 +1,8 @@
 .Weather {
   font-family: arial, sans-serif;
   border: 1px solid rgb(195, 140, 202);
-  padding: 16px;
+  box-shadow: 2px 2px 2px rgb(105, 69, 94, 0.5);
+  padding: 30px;
   border-radius: 4px;
   color: rgb(105, 69, 94);
 }
@@ -43,14 +44,15 @@
 }
 
 .Weather .temperature {
+  margin-left: -80px;
   font-weight: 400;
-  color: rgb(49, 30, 38);
+  color: rgb(105, 69, 94);
   font-size: 64px;
   line-height: 64px;
 }
 
 .Weather .unit {
-  color: rgb(49, 28, 38);
+  color: rgb(105, 69, 94);
   font-size: 16px;
   font-weight: 400;
   line-height: 1;
@@ -61,4 +63,22 @@
 
 .Weather .unit a {
   text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  .Weather {
+    position: relative;
+    text-align: center;
+  }
+  .Weather form {
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    padding-right: 10px;
+  }
+  .Weather .col-4 {
+    position: relative;
+    margin: auto;
+    padding-left: 110px;
+  }
 }

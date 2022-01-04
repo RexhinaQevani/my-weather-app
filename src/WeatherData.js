@@ -14,13 +14,14 @@ export default function WeatherData(props) {
         <li className="text-capitalize">{props.data.description}</li>
       </ul>
       <div className="row mt-3">
-        <div className="col-4">
-          <WeatherTemperature celsius={props.data.temperature} />
-        </div>
-        <div className="col-4">
+        <div className="col-4 d-none d-sm-block">
           <WeatherIcon code={props.data.icon} size={72} />
         </div>
         <div className="col-4">
+          <WeatherTemperature celsius={props.data.temperature} />
+        </div>
+
+        <div className="col-4 d-none d-lg-block">
           <ul>
             <li>Humidity: {props.data.humidity}%</li>
             <li>Wind: {props.data.wind}km/h</li>

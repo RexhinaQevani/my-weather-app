@@ -48,12 +48,11 @@ export default function Weather(props) {
                 type="search"
                 placeholder="Enter city"
                 className="form-control"
-                autoFocus="on"
                 onChange={handleCityChange}
               />
             </div>
             <div className="col-3">
-              <input type="submit" value="Search" className="btn w-100" />
+              <input type="submit" value="Search" className="btn" />
             </div>
           </div>
         </form>
@@ -64,6 +63,7 @@ export default function Weather(props) {
     );
   } else {
     search();
+
     return "Loading...";
   }
 }
